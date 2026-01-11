@@ -440,6 +440,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -450,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "core-micro-pcb.kicad_pro",
+    "filename": "core-dmx.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -608,6 +609,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "8422d95d-f16c-4087-88c5-ede4feca42e9",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
