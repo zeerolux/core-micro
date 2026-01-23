@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB2514BI-AEZG")(type "KiCad")(uri "C:/Users/austi/OneDrive/Documents/git/zeerolux/core-micro/pcb/libraries/USB2514BI_AEZG/USB2514BI-AEZG.kicad_sym")(options "")(descr ""))
+  (lib (name "47219-2001")(type "KiCad")(uri "C:/Users/austi/OneDrive/Documents/git/zeerolux/core-micro/pcb/libraries/47219-2001/47219-2001.kicad_sym")(options "")(descr ""))
+  (lib (name "SP706SEN-L/TR")(type "KiCad")(uri "C:/Users/austi/OneDrive/Documents/git/zeerolux/core-micro/pcb/libraries/SP706SEN_L_TR/KiCADv6/2026-01-20_10-48-20.kicad_sym")(options "")(descr ""))
+  (lib (name "PCF8563T/5,518")(type "KiCad")(uri "C:/Users/austi/OneDrive/Documents/git/zeerolux/core-micro/pcb/libraries/PCF8563T_5_518/KiCADv6/2026-01-20_11-11-47.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-01-20_11-31-17")(type "KiCad")(uri "C:/Users/austi/OneDrive/Documents/git/zeerolux/core-micro/pcb/libraries/LAN9514I_JZX/KiCADv6/2026-01-20_11-31-17.kicad_sym")(options "")(descr ""))
+)
