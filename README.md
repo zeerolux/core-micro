@@ -19,32 +19,36 @@ I decided to take on this project after I realised how incredibly expensive ligh
 Core-Micro has four PCBs; one for each module. 
 
 ### Logic PCB:
-<img width="1902" height="1243" alt="image" src="https://github.com/user-attachments/assets/57931873-9b58-4215-b7a1-41d606c71b7a" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/57931873-9b58-4215-b7a1-41d606c71b7a" />
 The Logic PCB does a few main things:
 - Connects to PC over USB
 - Processes DMX signals and distrobutes them to DMX PCB(s)
 - Runs ARTNET
 - Interfaces with Surface PCB
 All the main processing is powered by an RP2040 and the ethernet controller is a W5500.
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/35a76f1d-2edc-43a5-bd2b-b9af9955ef8e" />
 
 ### Control Surface PCB
-<img width="1629" height="1079" alt="image" src="https://github.com/user-attachments/assets/27b2eaf2-a91c-425c-9260-e956d14383b9" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/27b2eaf2-a91c-425c-9260-e956d14383b9" />
 This PCB's purpose is as follows:
 - To have enough buttons to comfortably program lights
 - To have enough faders for basic theatre applications
 - To interface with the Logic board and passthrough control to PC applications or standalone mode.
 Like the Logic PCB, the Control Surface is powered by an RP2040 and sends commands to other components via UART.
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/02779e29-b142-46ea-8f19-cc8e989d272d" />
 
 ### Power PCB
-<img width="578" height="675" alt="image" src="https://github.com/user-attachments/assets/18bed14b-2d32-436d-a761-7beee57d8125" />
+<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/18bed14b-2d32-436d-a761-7beee57d8125" />
 Why do we need a separate PCB for power? Redundancy. In a live production environment, we cannot tolerate any power cuts or flaky USB connections. Therefore, I designed a board that has two inputs that can automatically be switched between if one cuts out. This allows for:
 - Usage of independant power supplies for redundancy
 - Automatic switch over to battery power during power cuts or brownouts
 There is also a Superviser IC on this PCB in case I want to add that functionality in the future to other modules.
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/9abccac9-71fe-4df6-9382-c6a26e50b408" />
 
 ### DMX Interface PCB
-<img width="708" height="800" alt="image" src="https://github.com/user-attachments/assets/4d3b3220-f426-4dcb-b4c4-ce2fd4255fa5" />
+<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/4d3b3220-f426-4dcb-b4c4-ce2fd4255fa5" />
 This simple PCB converts the PIO DMX signal into RS485 signal that can be sent to DMX fixtures. This board also has both 3-pin and 5-pin XLR to ensure you can connect to any light.
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/f866f6a3-5730-474e-8580-6e9f9c985916" />
 
 ## The Software
 
