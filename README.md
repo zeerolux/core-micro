@@ -46,6 +46,14 @@ There is also a Superviser IC on this PCB in case I want to add that functionali
 <img width="708" height="800" alt="image" src="https://github.com/user-attachments/assets/4d3b3220-f426-4dcb-b4c4-ce2fd4255fa5" />
 This simple PCB converts the PIO DMX signal into RS485 signal that can be sent to DMX fixtures. This board also has both 3-pin and 5-pin XLR to ensure you can connect to any light.
 
+## The Software
+
+At this current moment, the software is a minimal version designed for testing DMX and ARTNET in a standalone mode. Here is the ideal list of software features I would like to implement:
+- Standalone mode
+- ARTNET node mode
+- Midi Mode
+- Custom serial driver for control via custom software
+
 
 
 
