@@ -1789,8 +1789,69 @@
 	)
 	(footprint ""
 		(layer "F.Cu")
+		(uuid "c5f615c1-5889-48b8-9799-1712e092c72b")
+		(at 98.15 15.8)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "f05e423d-a094-4631-9a4b-8f61a15748cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fe4cfc00-cc60-4902-a72c-326507fed74b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77d0b937-509b-4777-95fd-6e7271bbb5af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d65c3887-b286-4524-b043-1edf2ff91d98")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(zone_connect 2)
+			(uuid "df235811-ae1f-4742-8a2b-4893860012b1")
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
 		(uuid "cd2ed167-b5e0-438f-a509-c439970a6838")
-		(at 98 45)
+		(at 98.15 45.15)
 		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -2346,8 +2407,18 @@
 		(uuid "2c41e8cf-b3a4-4911-a9c2-c39b009db041")
 	)
 	(gr_line
+		(start 94.7 12.3)
+		(end 101.3 12.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3070fb05-6ae8-4347-bcb4-f59c69023f6c")
+	)
+	(gr_line
 		(start 72 19)
-		(end 114 19)
+		(end 91.05 19)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2376,7 +2447,7 @@
 		(uuid "a7f60ee4-c12f-4687-b6bf-7d5b2e2b71fa")
 	)
 	(gr_line
-		(start 114 19)
+		(start 114 17.25)
 		(end 114 73)
 		(stroke
 			(width 0.05)
@@ -2384,6 +2455,36 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "b4570a16-e850-41df-8e86-56e4e990565c")
+	)
+	(gr_line
+		(start 91.05 19)
+		(end 94.7 12.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2b3c24e-1b5e-433e-864f-8ca39522f8b5")
+	)
+	(gr_line
+		(start 103.2 17.25)
+		(end 114 17.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "de346c46-67f2-466a-9000-a64cb8aa5f33")
+	)
+	(gr_line
+		(start 103.2 17.25)
+		(end 101.3 12.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e5051c55-0f7c-4b67-bb82-81d52c18d53d")
 	)
 	(gr_line
 		(start 114 73)

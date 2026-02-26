@@ -1,0 +1,18 @@
+.program dmx_tx
+.side_set 1
+
+; DMX 8N2 transmitter
+; 1 start bit (low)
+; 8 data bits (LSB first)
+; 2 stop bits (high)
+; 4 PIO cycles per bit (clock divisor set accordingly)
+
+pull        side 1        ; Idle high while waiting
+set x, 7    side 0        ; Start bit (low)
+
+bitloop:
+    out pins, 1           ; Output data bit
+    jmp x-- bitloop
+
+    nop         side 1    ; Stop bit 1
+    nop         side 1    ; Stop bit 2
