@@ -15,10 +15,10 @@ I decided to take on this project after I realised how incredibly expensive ligh
 
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/09d99a7a-2156-47d1-b991-dae4e0aa9a78" />
 
-### The Hardware
+## The Hardware
 Core-Micro has four PCBs; one for each module. 
 
-#### Logic PCB:
+### Logic PCB:
 <img width="1902" height="1243" alt="image" src="https://github.com/user-attachments/assets/57931873-9b58-4215-b7a1-41d606c71b7a" />
 The Logic PCB does a few main things:
 - Connects to PC over USB
@@ -27,7 +27,7 @@ The Logic PCB does a few main things:
 - Interfaces with Surface PCB
 All the main processing is powered by an RP2040 and the ethernet controller is a W5500.
 
-#### Control Surface PCB
+### Control Surface PCB
 <img width="1629" height="1079" alt="image" src="https://github.com/user-attachments/assets/27b2eaf2-a91c-425c-9260-e956d14383b9" />
 This PCB's purpose is as follows:
 - To have enough buttons to comfortably program lights
@@ -35,14 +35,14 @@ This PCB's purpose is as follows:
 - To interface with the Logic board and passthrough control to PC applications or standalone mode.
 Like the Logic PCB, the Control Surface is powered by an RP2040 and sends commands to other components via UART.
 
-#### Power PCB
+### Power PCB
 <img width="578" height="675" alt="image" src="https://github.com/user-attachments/assets/18bed14b-2d32-436d-a761-7beee57d8125" />
 Why do we need a separate PCB for power? Redundancy. In a live production environment, we cannot tolerate any power cuts or flaky USB connections. Therefore, I designed a board that has two inputs that can automatically be switched between if one cuts out. This allows for:
 - Usage of independant power supplies for redundancy
 - Automatic switch over to battery power during power cuts or brownouts
 There is also a Superviser IC on this PCB in case I want to add that functionality in the future to other modules.
 
-#### DMX Interface PCB
+### DMX Interface PCB
 <img width="708" height="800" alt="image" src="https://github.com/user-attachments/assets/4d3b3220-f426-4dcb-b4c4-ce2fd4255fa5" />
 This simple PCB converts the PIO DMX signal into RS485 signal that can be sent to DMX fixtures. This board also has both 3-pin and 5-pin XLR to ensure you can connect to any light.
 
