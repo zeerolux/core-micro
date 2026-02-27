@@ -66,6 +66,33 @@ At this current moment, the software is a minimal version designed for testing D
 - Midi Mode
 - Custom serial driver for control via custom software
 
+## BOM
+
+## Bill of Materials (BOM)
+
+| Item                          | Qty | Link / Supplier | List Price (AUD) | Actual (AUD) | Location    | Shipping (AUD) |
+|--------------------------------|-----|-----------------|------------------|--------------|------------|----------------|
+| Surface PCB                    | 5   | JLCPCB          | 17.90            | 190.94       | JLCPCB     | 33.14          |
+| Surface PCB Assembly           | 2   | JLCPCB          | 39.89            | —            | aliexpress | —              |
+| Logic PCB                      | 5   | JLCPCB          | 4.00             | —            | mouser     | 20.00          |
+| Logic PCB Assembly             | 2   | JLCPCB          | 48.14            | —            | beekeeb    | 15.64          |
+| DMX PCB                        | 5   | JLCPCB          | 4.00             | —            | —          | —              |
+| DMX PCB Assembly               | 2   | JLCPCB          | 18.58            | —            | —          | —              |
+| Power PCB                      | 5   | JLCPCB          | 2.00             | —            | —          | —              |
+| Power PCB Assembly             | 2   | JLCPCB          | 43.29            | —            | —          | —              |
+| Encoders                       | 3   | Mouser          | 5.07             | 5.07         | —          | —              |
+| Faders                         | 5   | Mouser          | 9.60             | 9.60         | —          | —              |
+| USB B Socket                   | 1   | Mouser          | 0.95             | 0.95         | —          | —              |
+| Threaded Inserts M3            | 100 | AliExpress      | 5.00             | 5.00         | —          | —              |
+| Threaded Inserts M2            | 100 | AliExpress      | 5.00             | 5.00         | —          | —              |
+| Screws M3                      | 50  | AliExpress      | 3.00             | 3.00         | —          | —              |
+| Screws M2                      | 50  | AliExpress      | 3.00             | 3.00         | —          | —              |
+| Key Switches                   | 50  | Beekeeb         | 49.00            | 49.00        | —          | —              |
+| Neutrik 3 Pin XLR              | 2   | Mouser          | 5.64             | 5.64         | —          | —              |
+| Neutrik 5 Pin XLR              | 2   | Mouser          | 7.74             | 7.74         | —          | —              |
+| Shipping (overall products)    | —   | —               | 68.78            | —            | —          | —              |
+| **Total Cost**                 | —   | —               | **284.94**       | —            | —          | —              |
+
 
 
 
