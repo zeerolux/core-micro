@@ -70,7 +70,7 @@ At this current moment, the software is a minimal version designed for testing D
 
 ## Bill of Materials (BOM)
 
-| Item                          | Qty | Link / Supplier | List Price (AUD) | Actual (AUD) | Location    | Shipping (AUD) |
+| Item                          | Qty | Link / Supplier | List Price  | Actual  | Location    | Shipping  |
 |--------------------------------|-----|-----------------|------------------|--------------|------------|----------------|
 | Surface PCB                    | 5   | JLCPCB          | 17.90            | 190.94       | JLCPCB     | 33.14          |
 | Surface PCB Assembly           | 2   | JLCPCB          | 39.89            | —            | aliexpress | —              |
