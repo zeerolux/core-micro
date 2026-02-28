@@ -1,0 +1,21 @@
+﻿Item,Quantity,Link,List Price,Actual,location,shipping cost
+Surface PCB,5,JLCPCB,17.9,190.94,JLCPCB,33.14
+Surface PCB Assembly,2,JLCPCB,39.89,,aliexpress,
+Logic PCB,5,JLCPCB,4,,mouser,20
+Logic PCB Assembly,2,JLCPCB,48.14,,beekeeb,15.64
+DMX PCB,5,JLCPCB,4,,,
+DMX PCB Assembly,2,JLCPCB,18.58,,,
+Power PCB,5,JLCPCB,2,,,
+Power PCB Assembly,2,JLCPCB,43.29,,,
+Encoders,3,https://au.mouser.com/ProductDetail/Bourns/PEC12R-4220F-S0024?qs=Zq5ylnUbLm7u%2FuPQvUoR4Q%3D%3D,5.07,5.07,,
+Faders,5,https://au.mouser.com/ProductDetail/Bourns/PTA6043-2015DPB103?qs=U%2FacTlguYxYM6XeKwIsltg%3D%3D,9.6,9.6,,
+USB B socket,1,https://au.mouser.com/ProductDetail/Harwin/M701-330442?qs=x6EjVpvqMVOIQFAB0splYQ%3D%3D,0.95,0.95,,
+Threaded inserts m3,100,https://www.aliexpress.com/item/1005008897571758.html,5,5,,
+Threaded inserts m2,100,https://www.aliexpress.com/item/1005008897571758.html,5,5,,
+Screws m3,50,https://www.aliexpress.com/item/1005007593838226.html,3,3,,
+Screws m2,50,https://www.aliexpress.com/item/1005007593838226.html,3,3,,
+Key Switches,50,https://shop.beekeeb.com/products/sunset-choc-key-switch,49,49,,
+Neutrix 3 pin XLR,2,https://au.mouser.com/ProductDetail/Neutrik/NC3FAH-0?qs=JfNPhaIww3KVRIFFDchtUA%3D%3D,5.64,5.64,,
+Neutrix 5 pin XLR,2,https://au.mouser.com/ProductDetail/Neutrik/NC5FAH-0?qs=6LylQoPC2St0w7oAc5hVvw%3D%3D,7.74,7.74,,
+Shipping (over all products),n/a,n/a,68.78,,,
+Total Cost,,,284.94,,,

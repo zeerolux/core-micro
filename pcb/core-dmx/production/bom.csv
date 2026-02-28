@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"_3, _2, ",,3,,
+"J3, J4",TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal,2,Screw_Terminal_01x02,
+U1,SOIC-8_3.9x4.9mm_P1.27mm,1,MAX485E,
