@@ -6,7 +6,6 @@ A lighting controller, control surface with 5 faders and 2 encoders, a USB DMX i
 - DMX: Digital Multiplex is an RS485 based communication standard for controlling stage lights and equipment.
 - ARTNET: DMX over IP
 - On-PC: A standard term used by lighting consoles to describe control systems that require a laptop or PC to operate as opposed to all processing running on console.
-- Avolites Quartz: A 
 
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/a203856b-5387-4f76-ac0a-76d043b33ba2" />
 
