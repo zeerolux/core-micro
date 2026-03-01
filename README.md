@@ -28,7 +28,8 @@ The Logic PCB does a few main things:
 - Interfaces with Surface PCB
 All the main processing is powered by an RP2040 and the ethernet controller is a W5500.
 
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/35a76f1d-2edc-43a5-bd2b-b9af9955ef8e" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/17de5a51-9f6d-4434-b32e-9e0a0328d4a4" />
+
 
 ### Control Surface PCB
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/27b2eaf2-a91c-425c-9260-e956d14383b9" />
